@@ -15,7 +15,7 @@ public class LongOperationExample {
 		long value3 = 1000L;
 		long result2 = value1 + value2 + value3;
 		System.out.println(result2);
-
+		
 	}
 
 }
