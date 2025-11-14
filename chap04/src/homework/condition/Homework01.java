@@ -11,7 +11,7 @@ public class Homework01 {
 		
 		int age = sc.nextInt();
 		
-		if (age>=3&&age<12) {
+		if (age>=3&&age<=12) {
 			int price = 10000;
 			System.out.println("당신의 놀이동산 요금은 "+price+"원입니다.");
 		} else if (age >=13&& age<=18) {

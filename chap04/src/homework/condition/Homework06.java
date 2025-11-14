@@ -14,7 +14,11 @@ public class Homework06 {
 		int num4 = sc.nextInt();
 		int num5 = sc.nextInt();
 		
-		String result;
+		
+		String result; 
+		
+		
+		
 		
 		int ave=(num1+num2+num3+num4+num5)/5;
 		

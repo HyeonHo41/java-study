@@ -14,16 +14,18 @@ public class Homework02 {
 		String m="";
 		String d="";
 		
+		//월 값이 1~12여야함.
+		//월이 12~2 겨울 3~5는 봄 6~8는 여름 9~11 가을
+		
 		
 		if (month>=1 && month<=12) {
-			if (month>=6 && month <=9) {
+			if (month>=6 && month <=8) {
 				m="여름";
 				if (c>=35) {
 					d="폭염 경보";
 				} else if (c<35 && c>=33) {
 					d="폭염 주의보";
 				}
-				
 			} else if (month == 1 || month==2 || month==12) {
 				m="겨울";
 				if (c<=-15) {
@@ -34,9 +36,10 @@ public class Homework02 {
 			}
 			else if (month>=3 && month <=5) {
 				m="봄";
-			
 			}
-			
+			else if (month>=9 && month <=11) {
+				m="가을";
+			}
 		} else {
 			m="해당하는 계절 없음";
 		}
