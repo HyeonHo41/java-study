@@ -9,7 +9,7 @@ public class Homework04 {
 		
 		System.out.print("수집된 코드 : ");
 		int code = sc.nextInt();
-		String result;
+		String result="";
 		
 		switch (code) {
 			case 400:

@@ -37,11 +37,9 @@ public class Homework8 {
 						count++;
 					}
 				}
-
 				System.out.println("포함된 개수 : "+count);
 				System.out.print("다시 입력하시겠습니까? : ");
 				re = sc.next().charAt(0);
-				
 				
 			} else if (re=='N'||re=='n') {
 				break Label;

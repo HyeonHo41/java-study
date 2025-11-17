@@ -9,7 +9,7 @@ public class Homework05 {
 		
 		System.out.print("번호 입력:");
 		int num = sc.nextInt();
-		String result;
+		String result="";
 		
 		if (num>=1 && num <=5) {
 			if (num==1) {
